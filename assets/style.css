@@ -1,0 +1,26 @@
+
+
+.container {
+    margin: 30px;
+}
+
+.jumbotron {
+color: black;
+background-image: url("images/train.jpg");
+background-color: #cccccc;
+background-repeat: no-repeat;
+height: 250px;
+font-size: 50px;
+font-family: cursive;
+text-align: left;
+padding: 150px;
+border: 8px;
+border-color: black;
+}
+
+#title {
+    padding-top:120px;
+    color: red;
+}
+
+

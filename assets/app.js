@@ -47,7 +47,13 @@ $("#train-name").val("");
 $("#place").val("");
 $("#next").val("");
 $("#number").val("");
-});       
+});     
+
+
+
+
+
+
 
 dataRef.ref().on("child_added", function(childSnapshot) {
   console.log("appending")
@@ -63,14 +69,15 @@ console.log(placeInfo);
 console.log(numberInfo);
 console.log(nextInfo);
 
+
 var row = $("<tr>").append(
-  $("ap-train").append(nameInfo),
-  $("ap-place").append(placeInfo),
-  $("ap-time").append(numberInfo),
-  $("ap-next").append(nextInfo),
+  $("<td>").append(nameInfo),
+  $("<td>").append(placeInfo),
+  $("<td>").append(numberInfo),
+  $("<td>").append(nextInfo),
 
 );
-  $("#employee-table > tbody").append(row);
+  $("#train-table > tbody").append(row);
 
 
 });
