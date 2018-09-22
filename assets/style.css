@@ -24,3 +24,23 @@ border-color: black;
 }
 
 
+.wrapper {
+    overflow: hidden;
+  }
+  
+  .sliding-background {
+    background: url("images/polartrain.png") repeat-x;
+    height: 140px;
+    width: 5076px;
+    animation: slide 15s linear infinite;
+  }
+  
+  @keyframes slide{
+    /* 0%{
+      transform: translate3d(0, 0, 0);
+    } */
+   0%{
+      transform: translate3d(-1692px, 0, 0);
+    }
+  }
+
