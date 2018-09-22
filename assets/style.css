@@ -36,11 +36,15 @@ border-color: black;
   }
   
   @keyframes slide{
-    /* 0%{
-      transform: translate3d(0, 0, 0);
-    } */
+  
    0%{
       transform: translate3d(-1692px, 0, 0);
     }
+  }
+
+  th {
+      font-size: 24px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border-width: 5px;
   }
 
